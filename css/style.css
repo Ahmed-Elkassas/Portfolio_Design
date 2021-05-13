@@ -315,15 +315,6 @@ section {
   -ms-transform: translatex(-50%);
   -o-transform: translatex(-50%);
 }
-.about-me .box-color {
-  position: absolute;
-  top: 20%;
-  left: 5%;
-  height: 58%;
-  width: 28%;
-  background-color: #a799b7be;
-  z-index: -1;
-}
 .about-me .about-content {
   font-family: "Ubuntu", sans-serif;
   display: flex;
@@ -335,8 +326,17 @@ section {
   width: 35%;
   background-color: #fdca40;
   height: 350px;
+  position: relative;
 }
-
+.about-me .left .box-color {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 100%;
+  width: 100%;
+  background-color: #a799b7be;
+  z-index: -1;
+}
 .about-content .right {
   width: 55%;
 }
