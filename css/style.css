@@ -946,6 +946,32 @@ section {
     max-height: 40%;
   }
 }
+@media (max-width: 500px) {
+  .works .works-content {
+    display: block;
+  }
+  .works .works-content div {
+    display: block;
+    width: 90%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .works .works-content .text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .works .works-content .four img {
+    top: 30%;
+    left: 37%;
+    max-width: 40%;
+    max-height: 40%;
+  }
+  .works .color,
+  .works .circle {
+    display: none;
+  }
+}
 
 /* End our works */
 /* Start Contact me */
