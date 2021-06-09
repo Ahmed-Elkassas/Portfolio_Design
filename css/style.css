@@ -323,20 +323,16 @@ section {
   flex-wrap: wrap;
 }
 .about-content .left {
-  width: 35%;
-  background-color: #fdca40;
-  height: 350px;
-  position: relative;
+  display: block;
+  height: 320px;
+  width: 300px;
 }
-.about-me .left .box-color {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  height: 100%;
+.about-content .left img {
   width: 100%;
-  background-color: #a799b7be;
-  z-index: -1;
+  height: 100%;
 }
+
+
 .about-content .right {
   width: 55%;
 }
@@ -954,6 +950,7 @@ section {
     display: block;
     width: 90%;
     height: 200px;
+    margin: auto;
     margin-bottom: 20px;
   }
   .works .works-content .text {
