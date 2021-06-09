@@ -332,7 +332,6 @@ section {
   height: 100%;
 }
 
-
 .about-content .right {
   width: 55%;
 }
@@ -568,9 +567,18 @@ section {
   padding-bottom: 10px;
   font-size: 22px;
 }
-.skills .skills-content .left p {
+.skills .skills-content .left {
   text-align: justify;
-  line-height: 1.4;
+}
+.skills .skills-content .left ul li {
+  margin-bottom: 5px;
+}
+.skills .left ul li span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .left ul li span:last-child {
+  color: rgb(116, 108, 116);
 }
 .skills .skills-content a {
   display: inline-block;
