@@ -576,8 +576,12 @@ section {
 .skills .left ul li span {
   font-weight: 500;
   font-size: 18px;
-}
-.skills .left ul li span:last-child {
+    background: -webkit-linear-gradient(35deg, crimson 60%, rgba(24, 23, 23, 0.644));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.skills .left ul li:nth-of-type(3) span:last-child {
   color: rgb(116, 108, 116);
 }
 .skills .skills-content a {
