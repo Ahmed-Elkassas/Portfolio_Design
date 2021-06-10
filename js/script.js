@@ -1,19 +1,3 @@
-
-const skillSection = document.getElementById('skills');
-const skillsBar = document.querySelectorAll('.info');
-
-window.addEventListener('scroll', () => {
-    const sectionPos = skillSection.getBoundingClientRect().top;
-    const screenPos = window.innerHeight;
-
-    if(sectionPos < sectionPos) {
-        console.log(`show progress`);
-    } else {
-        console.log('hide progress');
-    }
-})
-
-
 $(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20) {
