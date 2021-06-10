@@ -576,11 +576,15 @@ section {
 .skills .left ul li span {
   font-weight: 500;
   font-size: 18px;
-    background: -webkit-linear-gradient(35deg, crimson 60%, rgba(24, 23, 23, 0.644));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+  background: -webkit-linear-gradient(
+    35deg,
+    crimson 60%,
+    rgba(24, 23, 23, 0.644)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .skills .left ul li:nth-of-type(3) span:last-child {
   color: rgb(116, 108, 116);
 }
@@ -822,11 +826,13 @@ section {
 }
 .works .works-content .four img {
   position: absolute;
-  top: 30%;
+  top: 32%;
   left: 22%;
   max-width: 60%;
   z-index: 2;
   max-height: 60%;
+  mix-blend-mode: inherit;
+
   opacity: 0.6;
   transition: all 0.4s ease-in-out;
   -webkit-animation: rotation 2s infinite linear;
@@ -972,7 +978,7 @@ section {
   }
   .works .works-content .four img {
     top: 30%;
-    left: 37%;
+    left: 34%;
     max-width: 40%;
     max-height: 40%;
   }
