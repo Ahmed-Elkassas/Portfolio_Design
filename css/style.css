@@ -10,8 +10,8 @@
   padding: 0;
   text-decoration: none;
 }
-body {
-  scroll-behavior: auto;
+html {
+  scroll-behavior: smooth;
 }
 :root {
   --main-color: crimson;
