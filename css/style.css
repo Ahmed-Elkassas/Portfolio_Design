@@ -648,6 +648,9 @@ section {
 .skills .right .bars .line-sc:before {
   width: 60%;
 }
+.skills .right .bars .line-ts:before {
+  width: 50%;
+}
 /* --------------- Start media query ----------- */
 @media (max-width: 992px) {
   .skills .skills-content .text {
