@@ -569,9 +569,10 @@ section {
 }
 .skills .skills-content .left {
   text-align: justify;
+  margin: 40px 0;
 }
 .skills .skills-content .left ul li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .skills .left ul li span {
   font-weight: 500;
@@ -776,19 +777,22 @@ section {
   grid-column: 2 / 4;
   grid-row: 4 / 7;
   opacity: 0.7;
-  background-color: #fff;
+  background: url(../images/responsive.png) no-repeat center;
+  background-size: auto;
 }
 .works .works-content .one a {
-  border: 2px solid #563d7c;
-  background-color: #563d7c;
+  border: 2px solid #5a3e85;
+  background-color: #5a3e85;
 }
 .works .works-content .one a:hover {
-  color: #563d7c;
+  color: rgb(40, 5, 63);
+  font-weight: 450;
 }
 .works .works-content .two {
   grid-column: 4 / 7;
   grid-row: 2 / 5;
-  background-color: #fff;
+  background: url(../images/template-section.png) no-repeat top right;
+  background-size: cover;
 }
 .works .works-content .two a {
   border: 2px solid #4caf50;
